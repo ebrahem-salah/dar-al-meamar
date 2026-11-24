@@ -1,12 +1,12 @@
 {
-  "name": "nextjs-saas-starter",
+  "name": "dar-al-meamar",
   "version": "1.0.0",
-  "description": "قالب Next.js احترافي متكامل مع المصادقة والأمان وجوجل والإيميل والداتابيز",
+  "description": "منصة دار المعمار للعقارات الفاخرة وحجز جولات المعاينة",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3006",
+    "dev": "next dev --port 3300",
     "build": "next build",
-    "start": "next start --port 3006",
+    "start": "next start --port 3300",
     "lint": "eslint"
   },
   "dependencies": {
