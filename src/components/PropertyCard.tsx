@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Bed, Bath, Maximize, MapPin, MessageSquare, ArrowLeft, Sparkles, Building2 } from 'lucide-react';
-import { getWhatsAppInspectionLink } from '@/models/Property';
+import { getWhatsAppInspectionLink } from '@/lib/propertyHelpers';
 
 export interface PropertyItem {
   _id?: string;

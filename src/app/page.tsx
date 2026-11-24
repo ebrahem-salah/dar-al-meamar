@@ -458,8 +458,13 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-[11px]">
-            <p>© {new Date().getFullYear()} دار المعمار للتطوير العقاري. نموذج حي مبني ومعتمد على منصة إبني ويب.</p>
+            <p>© {new Date().getFullYear()} دار المعمار للتطوير العقاري. جميع الحقوق محفوظة.</p>
             <p>جميع البيانات والأسعار استرشادية خاضعة لشروط المطورين العقاريين.</p>
+          </div>
+
+          <div className="pt-4 border-t border-slate-900 text-center text-xs text-slate-400">
+            <span>تم التصميم والإنشاء بواسطة </span>
+            <a href="https://ebnywep.com/" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 font-bold underline underline-offset-4 transition-colors">EbnyWep</a>
           </div>
 
         </div>
